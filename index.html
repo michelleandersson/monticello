@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="git remote add origin https://github.com/michelleandersson/montichello.git">
+    <script src="https://kit.fontawesome.com/ad7474103a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/index.css">
     <title>Monticello</title>
 </head>
 <body>
+    <header id="about-us">
+        <nav>
+            <div class="nav-logo">
+                <a href="#"><img class="nav-logo" src="images/logo.svg" alt="Montichello logo"></a>
+            </div>
+            <!--these need jquery. make circles white
+            and smooth scrolling to sections-->
+            <div class="navigation">
+                <ul>
+                    <li><a href="#about-us">ABOUT US</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="nav-social">
+                <a href="#"><i class="fab fa-facebook-square social-icon"></i></a>
+                <a href="#"><i class="fab fa-twitter-square social-icon"></i></a>
+                <a href="#"><i class="fab fa-instagram-square social-icon"></i></a>
+            </div>
+        </nav>
+        <div class="header__slick-slider"></div>
+        <div class="header__nav-down-btn"></div>
+    </header>
+    <main>
+        <section id="projects" class="projects">
+            <div class="projects__title"></div>
+            <div class="project-1"></div><!--end project-1-->
+            <div class="project-2"></div><!--end project-2-->
+        </section><!--end projects-->
+        <section id="news" class="news">
+            <div class="news__title"></div>
+            <div class="news__slick-slider"></div>
+        </section><!--end news-->
+        <section id="gallery" class="gallery">
+            <div class="gallery__title"></div>
+            <div class="gallery__images"></div>
+            <div class="gallery__see-more-button"></div>
+        </section><!--end gallery-->
+        <section id="contact" class="contact">
+            <div class="contact__map"></div><!--end contact-Map-->
+            <div class="contact__form"></div><!--end contact-form-->
+        </section><!--end contact-->
+        <footer class="footer">
+            <div class="footer__credit"></div>
+            <div class="footer__social">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+            </div>
+        </footer>
+    </main>
 
 
     <script src="script/index.js"></script>
