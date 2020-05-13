@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.PNG" type="image/x-icon">
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="git remote add origin https://github.com/michelleandersson/montichello.git">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Open+Sans:ital@0;1&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ad7474103a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/index.css">
     <title>Monticello</title>
@@ -29,11 +31,22 @@
             <div class="nav-social">
                 <a href="#"><i class="fab fa-facebook-square social-icon"></i></a>
                 <a href="#"><i class="fab fa-twitter-square social-icon"></i></a>
+                <!--weird line under instagram square. Fix it-->
                 <a href="#"><i class="fab fa-instagram-square social-icon"></i></a>
             </div>
         </nav>
-        <div class="header__slick-slider"></div>
-        <div class="header__nav-down-btn"></div>
+        <div class="header__slick-slider">
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+        </div><!--end header__slick-slider-->
+        <div class="header__nav-down-btn">
+            <button class="nav-btn">
+                <a href="#projects"><i class="fas fa-angle-down down-arrow"></i></a>
+            </button>
+        </div><!--end header__nav-down-btn-->
     </header>
     <main>
         <section id="projects" class="projects">
@@ -64,7 +77,9 @@
         </footer>
     </main>
 
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="script/index.js"></script>
 </body>
 </html>
