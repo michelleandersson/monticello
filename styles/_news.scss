@@ -1,0 +1,86 @@
+.news {
+    max-width: 1600px;
+    width: 100%;
+    height: 1035px;
+    margin-top: 140px;
+    background-image: url(../images/Background1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__line {
+        width: 100px;
+        color: $white-text;
+        margin-top: 135px;
+        text-align: center;
+    }
+    &__title {
+        font-family: $montserrat;
+        font-size: 44px;
+        font-weight: 700;
+        color: $white-text;
+        margin-top: 30px;
+        text-align: center;
+    }
+    &__slick-slider {
+        margin-top: 89px;
+        width: 1260px;
+        height: 584px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+.newsslider {
+    &__card {
+        width: 370px;
+        height: 514px;
+        display: flex;
+        margin: 0 30px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        &-image {
+            width: 370px;
+            height: 240px;
+            &>img {
+                width: 100%;
+            }
+        }
+        &-content {
+            width: 370px;
+            background-color: $white-text;
+            &__title {
+                font-family: $montserrat;
+                font-size: 22px;
+                font-weight: 700;
+                color: $title-text;
+                padding: 30px 20px 0 20px;
+            }
+            &__info {
+                margin-top: 15px;
+                font-family: $open-sans;
+                font-size: 18px;
+                color: $title-text;
+                padding: 0 20px;
+            }
+        }
+        &-author {
+            width: 370px;
+            margin-top: -1px;
+            background-color: $white-text;
+            &__image {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                padding-top: 39px;
+                padding-left: 20px;
+                &>img {
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

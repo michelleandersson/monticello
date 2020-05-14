@@ -1,0 +1,125 @@
+.projects {
+    max-width: 1600px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.projects__title-line {
+    width: 100px;
+}
+
+.project__title-text {
+    font-family: $montserrat;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: $title-text;
+    text-align: center;
+}
+
+.project-1 {
+    max-width: 1600px;
+    width: 100%;
+    height: 527px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end; 
+    &__image {
+        width: 845px;
+        height: 527px;
+        margin-right: 70px;
+        margin-top: 89px;
+        &>img {
+            width: 100%;
+        }
+    }
+    
+    &__content {
+        width: 470px;
+        height: 351px;
+    }
+}
+
+.project-content {
+    &__subtitle{
+        font-family: $montserrat;
+        font-size: 22px;
+        color: $title-text;
+    }
+    &__title {
+        font-family: $montserrat;
+        font-size: 44px;
+        font-weight: 700;
+        color: $title-text;
+    }
+    &__info {
+        font-family: $open-sans;
+        font-size: 18px;
+        line-height: 1.6;
+        color: $title-text;
+        margin-top: 19px;
+    }
+    &__btn {
+        width: 190px;
+        height: 50px;
+        border: 1px solid $title-text;
+        font-family: $montserrat;
+        font-size: 14px;
+        color: $black-text;
+        margin-top: 41px;
+        background-color: $white-text;
+        &:hover {
+            color: $white-text;
+            background-color: $title-text;
+            border: 1px solid $white-text;
+        }
+        &:focus {
+            color: $white-text;
+            background-color: $title-text;
+            border: 1px solid $white-text;
+        }
+    }
+    &__footer {
+        margin-top: 60px;
+        display: inline-flex;
+    }
+    &__marker {
+        width: 9px;
+        height: 17px;
+        color: $title-text;
+        margin-right: 10px;
+    }
+    &__location {
+        font-family: $open-sans;
+        font-style: italic;
+        font-size: 15px;
+        color: $black-text;
+    }
+}
+
+.project-2 {
+    max-width: 1600px;
+    width: 100%;
+    height: 527px;
+    margin-top: 140px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    &__image {
+        width: 845px;
+        height: 527px;
+        margin-left: 64px;
+        &>img {
+            width: 100%;
+        }
+    }
+    
+    &__content {
+        width: 470px;
+        height: 351px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

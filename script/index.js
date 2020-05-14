@@ -6,7 +6,7 @@ $(document).ready(function(){
       centerMode: true,
       arrows: true, 
       dots: true, 
-      centerPadding: '60px',
+      centerPadding: '30px',
       slidesToShow: 3,
     });
   });
