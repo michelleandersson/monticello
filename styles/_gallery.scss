@@ -1,0 +1,20 @@
+.gallery {
+    width: 1170px;
+    height: 721px;
+    margin-top: 157px;
+    background-color: $white-text;
+    &__line {
+        width: 100px;
+        text-align: center;
+        height: 1px;
+        background-color: $title-text;
+        border: none;
+    }
+    &__title {
+        font-family: $montserrat;
+        font-weight: 700;
+        font-size: 44px;
+        color: $title-text;
+        text-align: center;
+    }
+}

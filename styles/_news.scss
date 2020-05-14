@@ -9,7 +9,9 @@
     background-size: cover;
     &__line {
         width: 100px;
-        color: $white-text;
+        height: 1px;
+        background-color: $white-text;
+        border: none;
         margin-top: 135px;
         text-align: center;
     }
