@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $('.header__slick-slider').slick({
-      dots: true, 
-      arrows: false
+      dots: true
     });
   });
