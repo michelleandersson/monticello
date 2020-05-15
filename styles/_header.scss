@@ -66,9 +66,6 @@ nav {
     border: 1px solid $white-text;
     display: inline-block;
     margin-right: 14px;
-    &:focus, :hover, :active {
-        background-color: $white-text;
-    }
 }
 
 .nav-social>a {
@@ -183,4 +180,14 @@ nav {
     &:focus {
         color: $title-text;
     }
+}
+
+.nav-active {
+    /*width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid $white-text;
+    display: inline-block;
+    margin-right: 14px;*/
+    background-color: $white-text;
 }
