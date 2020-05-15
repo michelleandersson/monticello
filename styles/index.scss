@@ -5,7 +5,10 @@ $white-text: #fff;
 $title-text: #2C4058; 
 $black-text: #000; 
 $date-text: #55B7FF; 
-$form-logo: #7E5AFF; 
+$form-logo: #7E5AFF;
+$placeholder-text: rgba(75, 85, 98, 0.5); 
+$form-hover: rgba(126, 90, 255, 0.301);
+
 @import 'header'; 
 @import 'projects'; 
 @import 'news';
