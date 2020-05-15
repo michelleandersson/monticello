@@ -1,7 +1,8 @@
 
 $(document).ready(function(){
-    $('.header__slick-slider').slick({
-      dots: true
+    $('.header__slick-slider-container').slick({
+      dots: true,
+      arrows:false
     });
     $('.news__slick-slider').slick({
       centerMode: true,
