@@ -52,6 +52,22 @@ nav {
         &:focus {
             color: $title-text;
         }
+        & span:hover, :focus, :active {
+            background-color: $white-text;
+        }
+    }
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color:transparent;
+    border-radius: 50%;
+    border: 1px solid $white-text;
+    display: inline-block;
+    margin-right: 14px;
+    &:focus, :hover {
+        background-color: $white-text;
     }
 }
 
