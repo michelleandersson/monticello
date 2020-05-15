@@ -16,7 +16,7 @@
     <header id="about-us">
         <nav>
             <div class="nav-logo">
-                <a href="#"><img class="nav-logo" src="images/logo.svg" alt="Montichello logo"></a>
+                <a href="#about-us"><img class="nav-logo" src="images/logo.svg" alt="Montichello logo"></a>
             </div>
             <!-- make circles white-->
             <div class="navigation">
@@ -231,14 +231,14 @@
                 <div class="gallery__images-5"><img class="gallery__img" src="images/gallery-5.png" alt="Building"></div>
             </div>
             <div class="gallery__see-more-button">
-                <button>SEE MORE</button>
+                <button class="gallery__see-more-button__btn">SEE MORE</button>
             </div>
         </section><!--end gallery-->
         <section id="contact" class="contact">
-            <div class="contact__map" id="form-anchor">
+            <div class="contact__map">
                 <div id="map"></div>
             </div><!--end contact-Map-->
-            <div class="contact__form">
+            <div id="form-anchor" class="contact__form">
                 <div>
                     <hr class="contact__line">
                     <h2 class="contact__title">GET IN TOUCH</h2>
@@ -266,15 +266,20 @@
                 </div><!--end contact__container-->
             </div><!--end contact-form-->
         </section><!--end contact-->
-        <footer class="footer">
-            <div class="footer__credit"></div>
-            <div class="footer__social">
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                <a href="#"><i class="fab fa-instagram-square"></i></a>
-            </div>
-        </footer>
     </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__credit">
+                <a href="#about-us"><img class="footer__credit-logo" src="images/logo.svg" alt="Monticello logo"></a>
+                <h5 class="footer__credit-copyright">Copyrights &copy; 2020 Monticello</h5>
+            </div>
+            <div class="footer__social">
+                <a href="#"><i class="fab fa-facebook-square footer__social-icon"></i></a>
+                <a href="#"><i class="fab fa-twitter-square footer__social-icon"></i></a>
+                <a href="#"><i class="fab fa-instagram-square footer__social-icon"></i></a>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJNGd2QlZXaSe3zKxsJB2jIpq72PmZHYs"></script>

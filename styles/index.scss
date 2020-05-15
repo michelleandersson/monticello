@@ -13,7 +13,8 @@ $form-hover: rgba(126, 90, 255, 0.301);
 @import 'projects'; 
 @import 'news';
 @import 'gallery'; 
-@import 'contact';  
+@import 'contact';
+@import 'footer';   
 
 
 
@@ -35,6 +36,12 @@ main {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
