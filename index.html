@@ -235,7 +235,7 @@
             </div>
         </section><!--end gallery-->
         <section id="contact" class="contact">
-            <div class="contact__map">
+            <div class="contact__map" id="form-anchor">
                 <div id="map"></div>
             </div><!--end contact-Map-->
             <div class="contact__form">
@@ -258,10 +258,10 @@
                         </p>
                         
                     </div>
-                    <form class="contact__container-form" action="">
-                        <input id="name" class="contact__container-form-name" type="text" placeholder="Mollie Medina">
-                        <input id="email" class="contact__container-form-email" type="email" placeholder="Email">
-                        <button id="submit" class="contact__container-form-btn" type="submit">SUBMIT</button>
+                    <form name="myform" class="contact__container-form" action="#form-anchor" novalidate>
+                        <input id="name" name="name" class="contact__container-form-name" type="text" placeholder="Mollie Medina">
+                        <input id="email" name="email" class="contact__container-form-email" type="email" placeholder="Email">
+                        <button id="submit" class="contact__container-form-btn" type="submit" onclick="validateForm(); return false;">SUBMIT</button>
                     </form>
                 </div><!--end contact__container-->
             </div><!--end contact-form-->

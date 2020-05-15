@@ -324,5 +324,34 @@ let marker = new google.maps.Marker({
     icon: '../images/pin.svg'
 });
 
+function validateForm() { 
+let form= document.getElementsByName("myform");   
+let name=document.myform.name.value; 
+
+let email=document.myform.email.value;  
+let atposition=email.indexOf("@");  
+let dotposition=email.lastIndexOf("."); 
+
+if (name == "") {
+  alert("Name must be filled out"); 
+  document.myform.name.focus(); 
+  event.preventDefault();
+  return false; 
+} 
+if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Please enter a valid e-mail address" ); 
+  document.myform.email.focus();  
+  event.preventDefault();
+  return false;  
+} else {
+  $(".contact__form").remove(); 
+  alert("Thank you for submitting"); 
+  return true;
+
+}
+ 
+  
+} 
+
 
   
