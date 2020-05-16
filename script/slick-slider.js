@@ -5,12 +5,15 @@ $(document).ready(function(){
       arrows:false
     });
     $('.news__slick-slider').slick({
-      centerMode: true,
+      infinite: true,
+      centerMode: true, 
       arrows: true, 
       dots: true, 
       centerPadding: '30px',
       slidesToShow: 3,
+      slidesToScroll: 1,
       autoplay: true, 
-      autoplaySpeed: 4000
+      autoplaySpeed: 4000, 
+      variableWidth: true, 
     });
   });  
