@@ -120,6 +120,10 @@
                 height: 100%;
             }
         }
+        &:hover {
+            transform: scale(1.2);
+            transition: transform 330ms ease-in-out;
+        }
         &-content {
             width: 370px;
             background-color: $white-text;
