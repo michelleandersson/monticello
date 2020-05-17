@@ -172,13 +172,6 @@ nav {
 }
 
 
-
-
-
-.header__nav-down-btn:hover :focus {
-    color: $title-text;
-}
-
 .nav-btn {
     width: 40px;
     height: 40px;
@@ -193,6 +186,10 @@ nav {
     &:focus {
         border: 2px solid $title-text;
     }
+    &a:hover {
+        color: $title-text;
+        border: 2px solid $title-text;
+    }
 }
 
 .down-arrow {
@@ -204,6 +201,10 @@ nav {
     &:focus {
         color: $title-text;
     }
+}
+.header__nav-down-btn:hover :focus{
+    color: $title-text;
+    border: 2px solid $title-text;
 }
 
 
