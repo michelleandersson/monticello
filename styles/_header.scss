@@ -25,6 +25,7 @@ nav {
 .nav-logo {
     width: 241px;
     height: 54px;
+    opacity: 0.99;
 }
 
 .navigation {
@@ -131,7 +132,6 @@ nav {
 
 
 .header__slick-slider-container {
-    margin-top: 223x;
     >.slick-dots {
         display: flex;
         justify-content:space-between;
