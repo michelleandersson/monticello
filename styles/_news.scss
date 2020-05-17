@@ -30,19 +30,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
         >.slick-dots {
             width: 280px;
             display: flex;
             justify-content:space-between;
-            //align-items: flex-end;
             flex-direction: row;
-            //margin-left: 280px;
-            //height: 200px;
             position: absolute;
             bottom: -60px;    
             list-style-type: none;
-            //padding-top: 60px;
             margin-top: 60px;
                 
             button {
@@ -64,6 +59,47 @@
             }    
         }
     }
+}
+
+#go-back {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 20px;
+    color: $white-text;
+    border: 1px solid $white-text;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 60px;
+    &:hover :focus {
+        color: $title-text;
+        background-color: $white-text;
+    }
+}
+
+#go-forward {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 20px;
+    color: $white-text;
+    border: 1px solid $white-text;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 60px;
+    &:hover :focus {
+        color: $title-text;
+        background-color: $white-text;
+    }
+}
+.slick-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
 }
 
 .newsslider {

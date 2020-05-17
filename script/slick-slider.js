@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.news__slick-slider').slick({
       infinite: true,
       centerMode: true, 
-      arrows: true, 
+      arrows: false, 
       dots: true, 
       centerPadding: '30px',
       slidesToShow: 3,
@@ -15,5 +15,13 @@ $(document).ready(function(){
       autoplay: true, 
       autoplaySpeed: 4000, 
       variableWidth: true, 
-    });
-  });  
+     });
+  }); 
+
+  $('#go-back').click(function(){
+    $('.news__slick-slider').slick('slickPrev');
+  })
+  
+  $('#go-forward').click(function(){
+    $('.news__slick-slider').slick('slickNext');
+  })
