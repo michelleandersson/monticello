@@ -72,7 +72,7 @@
     text-align: center;
     line-height: 40px;
     margin-right: 60px;
-    &:hover :focus {
+    &:hover, :focus {
         color: $title-text;
         background-color: $white-text;
     }
@@ -89,7 +89,7 @@
     text-align: center;
     line-height: 40px;
     margin-left: 60px;
-    &:hover :focus {
+    &:hover, :focus {
         color: $title-text;
         background-color: $white-text;
     }
