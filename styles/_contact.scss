@@ -1,7 +1,7 @@
 #map {
     width: 1600px;
     height: 850px;
-    margin-top: 226px;
+
 }
 
 .contact {
@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 226px;
     &__form {
         width: 770px;
         height: 450px;
@@ -122,10 +123,6 @@
 
 }
 
-#success {
-    background-color: green;
-    z-index: 3;
-}
 
 
 
