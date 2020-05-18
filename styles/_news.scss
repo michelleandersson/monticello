@@ -75,6 +75,7 @@
     &:hover, :focus {
         color: $title-text;
         background-color: $white-text;
+        cursor: pointer;
     }
 }
 
@@ -92,6 +93,7 @@
     &:hover, :focus {
         color: $title-text;
         background-color: $white-text;
+        cursor: pointer;
     }
 }
 .slick-container {
@@ -121,6 +123,7 @@
             }
         }
         &:hover {
+            cursor: pointer;
             transform: scale(1.2);
             transition: transform 330ms ease-in-out;
         }
