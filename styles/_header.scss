@@ -2,7 +2,7 @@ header {
     max-width: 1600px;
     width: 100%;
     min-height: 800px;
-    background-image: url(../images/background-header-new.png);
+    background-image: url(../images/background-header-new.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,6 +90,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     border: none;
+     
     text-decoration: none;
     background-color: transparent;
     &:hover {

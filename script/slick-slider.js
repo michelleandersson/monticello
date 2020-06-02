@@ -2,7 +2,8 @@
 $(document).ready(function(){
     $('.header__slick-slider-container').slick({
       dots: true,
-      arrows:false
+      arrows:false, 
+      vertical: true
     });
     $('.news__slick-slider').slick({
       infinite: true,
